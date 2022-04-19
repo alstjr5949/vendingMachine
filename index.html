@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Noto+Sans+KR:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vending Machine</title>
+  </head>
+  <body>
+    <header class="header">
+      <img class="imgLogo" src="imgs/logo.png" alt="colacola logo" />
+    </header>
+    <main class="main">
+      <section class="vendingMachine">
+        <h2 class="hide">자판기</h2>
+        <ul class="drinkListBox">
+          <li class="drinkList">
+            <img
+              class="cola"
+              src="imgs/Original_Cola.png"
+              alt="오리지널 콜라"
+            />
+            <span>Original_Cola</span>
+            <button class="purchaseBtn" type="button">1000원</button>
+          </li>
+          <li class="drinkList">
+            <img class="soldOut" src="/imgs/품절 표시.png" alt="품절" />
+            <img class="cola" src="imgs/Violet_Cola.png" alt="바이올렛 콜라" />
+            Violet_Cola
+            <button class="purchaseBtn" type="button">1000원</button>
+          </li>
+          <li class="drinkList">
+            <img class="cola" src="imgs/Yellow_Cola.png" alt="옐로우 콜라" />
+            Yellow_Cola
+            <button class="purchaseBtn" type="button">1000원</button>
+          </li>
+          <li class="drinkList">
+            <img class="cola" src="imgs/Cool_Cola.png" alt="쿨 콜라" />
+            Cool_Cola
+            <button class="purchaseBtn" type="button">1000원</button>
+          </li>
+          <li class="drinkList">
+            <img class="cola" src="imgs/Green_Cola.png" alt="그린 콜라" />
+            Green_Cola
+            <button class="purchaseBtn" type="button">1000원</button>
+          </li>
+          <li class="drinkList">
+            <img class="cola" src="imgs/Orange_Cola.png" alt="오렌지 콜라" />
+            Orange_Cola
+            <button class="purchaseBtn" type="button">1000원</button>
+          </li>
+        </ul>
+        <section class="moneyInfo">
+          <h2 class="hide">거스름돈 입금 획득</h2>
+          <p class="balance">잔액 :<span>1,000 원</span></p>
+          <button class="changeDepositBtn">거스름돈 반환</button>
+          <input class="depositInput" type="number" placeholder="입금액 입력" />
+          <button class="changeDepositBtn">입금</button>
+          <ul class="getListBox">
+            <li class="getList">
+              <img
+                class="cola"
+                src="imgs/Original_Cola.png"
+                alt="오리지널 콜라"
+              />
+              Original_Cola
+              <div class="getNum">1</div>
+            </li>
+            <li class="getList">
+              <img class="cola" src="imgs/Green_Cola.png" alt="그린 콜라" />
+              Green_Cola
+              <div class="getNum">2</div>
+            </li>
+          </ul>
+          <button class="getBtn" type="button">획득</button>
+        </section>
+      </section>
+      <section class="myInfo">
+        <header class="myInfoHeader">
+          <h3 class="balance">소지금: <span>25,000 원</span></h3>
+        </header>
+        <article class="myBeverage">
+          <h2>획득한 음료</h2>
+          <ul class="getListBox myBeverageListBox">
+            <li class="getList">
+              <img
+                class="cola"
+                src="imgs/Original_Cola.png"
+                alt="오리지널 콜라"
+              />
+              Original_Cola
+              <div class="getNum">1</div>
+            </li>
+            <li class="getList">
+              <img class="cola" src="imgs/Green_Cola.png" alt="그린 콜라" />
+              Green_Cola
+              <div class="getNum">2</div>
+            </li>
+          </ul>
+          <p class="total">총금액: 9,000 원</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
