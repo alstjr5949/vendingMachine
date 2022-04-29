@@ -16,93 +16,99 @@
   <body>
     <header class="header">
       <h1>
-        <img class="imgLogo" src="imgs/logo.png" alt="colacola" />
+        <img class="imgLogo" src="./imgs/logo.png" alt="colacola" />
       </h1>
     </header>
     <main class="main">
       <section class="vendingMachine">
-        <h2 class="hide">자판기</h2>
+        <h2 class="ir">자판기</h2>
         <ul class="drinkListBox">
           <li class="drinkList">
             <img
               class="cola"
-              src="imgs/Original_Cola.png"
+              src="./imgs/Original_Cola.png"
               alt="오리지널 콜라"
             />
-            <span>Original_Cola</span>
+            <strong>Original_Cola</strong>
             <button class="purchaseBtn" type="button">1000원</button>
           </li>
           <li class="drinkList">
-            <img class="soldOut" src="/imgs/품절 표시.png" alt="품절" />
-            <img class="cola" src="imgs/Violet_Cola.png" alt="바이올렛 콜라" />
-            Violet_Cola
+            <img class="soldOut" src="./imgs/품절 표시.png" alt="품절" />
+            <img
+              class="cola"
+              src="./imgs/Violet_Cola.png"
+              alt="바이올렛 콜라"
+            />
+            <strong>Violet_Cola</strong>
             <button class="purchaseBtn" type="button">1000원</button>
           </li>
           <li class="drinkList">
-            <img class="cola" src="imgs/Yellow_Cola.png" alt="옐로우 콜라" />
-            Yellow_Cola
+            <img class="cola" src="./imgs/Yellow_Cola.png" alt="옐로우 콜라" />
+            <strong>Yellow_Cola</strong>
             <button class="purchaseBtn" type="button">1000원</button>
           </li>
           <li class="drinkList">
-            <img class="cola" src="imgs/Cool_Cola.png" alt="쿨 콜라" />
-            Cool_Cola
+            <img class="cola" src="./imgs/Cool_Cola.png" alt="쿨 콜라" />
+            <strong>Cool_Cola</strong>
             <button class="purchaseBtn" type="button">1000원</button>
           </li>
           <li class="drinkList">
-            <img class="cola" src="imgs/Green_Cola.png" alt="그린 콜라" />
-            Green_Cola
+            <img class="cola" src="./imgs/Green_Cola.png" alt="그린 콜라" />
+            <strong>Green_Cola</strong>
             <button class="purchaseBtn" type="button">1000원</button>
           </li>
           <li class="drinkList">
-            <img class="cola" src="imgs/Orange_Cola.png" alt="오렌지 콜라" />
-            Orange_Cola
+            <img class="cola" src="./imgs/Orange_Cola.png" alt="오렌지 콜라" />
+            <strong>Orange_Cola</strong>
             <button class="purchaseBtn" type="button">1000원</button>
           </li>
         </ul>
         <section class="moneyInfo">
-          <h2 class="hide">거스름돈 입금 획득</h2>
-          <p class="balance">잔액 :<span>1,000 원</span></p>
+          <h2 class="ir">구입 관련 정보</h2>
+          <p class="balance">잔액 :<strong>원</strong></p>
           <button class="changeDepositBtn">거스름돈 반환</button>
           <input class="depositInput" type="number" placeholder="입금액 입력" />
           <button class="changeDepositBtn">입금</button>
+          <strong class="ir">선택한 음료</strong>
           <ul class="getListBox">
             <li class="getList">
               <img
                 class="cola"
-                src="imgs/Original_Cola.png"
+                src="./imgs/Original_Cola.png"
                 alt="오리지널 콜라"
               />
-              Original_Cola
-              <div class="getNum">1</div>
+              <strong>Original_Cola</strong>
+              <button type="button" class="getNum">1</button>
             </li>
             <li class="getList">
-              <img class="cola" src="imgs/Green_Cola.png" alt="그린 콜라" />
-              Green_Cola
-              <div class="getNum">2</div>
+              <img class="cola" src="./imgs/Green_Cola.png" alt="그린 콜라" />
+              <strong>Green_Cola</strong>
+              <button type="button" class="getNum">1</button>
             </li>
           </ul>
           <button class="getBtn" type="button">획득</button>
         </section>
       </section>
       <section class="myInfo">
-        <header class="myInfoHeader">
-          <h3 class="balance">소지금: <span>25,000 원</span></h3>
-        </header>
+        <h2 class="ir">나의 정보 화면</h2>
+        <div class="myInfoHeader">
+          <p class="balance">소지금: <strong>25,000 원</strong></p>
+        </div>
         <article class="myBeverage">
-          <h2>획득한 음료</h2>
+          <strong class="myBeverageTit">획득한 음료</strong>
           <ul class="getListBox myBeverageListBox">
             <li class="getList">
               <img
                 class="cola"
-                src="imgs/Original_Cola.png"
+                src="./imgs/Original_Cola.png"
                 alt="오리지널 콜라"
               />
-              Original_Cola
+              <strong>Original_Cola</strong>
               <div class="getNum">1</div>
             </li>
             <li class="getList">
-              <img class="cola" src="imgs/Green_Cola.png" alt="그린 콜라" />
-              Green_Cola
+              <img class="cola" src="./imgs/Green_Cola.png" alt="그린 콜라" />
+              <strong>Green_Cola</strong>
               <div class="getNum">2</div>
             </li>
           </ul>

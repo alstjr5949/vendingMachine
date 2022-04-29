@@ -208,7 +208,8 @@ body {
   background-color: #fff;
 }
 
-.myBeverage h2 {
+.myBeverage .myBeverageTit {
+  display: block;
   text-align: center;
   font-family: "Noto Sans KR";
   font-style: normal;
