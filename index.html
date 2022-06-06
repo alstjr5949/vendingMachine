@@ -20,6 +20,15 @@
       </h1>
     </header>
     <main class="main">
+      <div class="dim"></div>
+      <article class="moneyModal">
+        <h2>소지금을 입금해주세요</h2>
+        <form class="depositForm">
+          <label class="ir" for="moneyInput">입금액 입력</label>
+          <input type="number" id="moneyInput" />
+          <button type="submit">입금하기</button>
+        </form>
+      </article>
       <section class="vendingMachine">
         <h2 class="ir">자판기</h2>
         <ul class="drinkListBox">
@@ -92,7 +101,9 @@
       <section class="myInfo">
         <h2 class="ir">나의 정보 화면</h2>
         <div class="myInfoHeader">
-          <p class="balance">소지금: <strong>25,000 원</strong></p>
+          <p class="balance">
+            소지금: <strong class="balanceMoney">원</strong>
+          </p>
         </div>
         <article class="myBeverage">
           <strong class="myBeverageTit">획득한 음료</strong>
@@ -116,5 +127,6 @@
         </article>
       </section>
     </main>
+    <script src="./js/index.js"></script>
   </body>
 </html>
