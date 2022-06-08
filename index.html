@@ -75,28 +75,15 @@
         <section class="moneyInfo">
           <h2 class="ir">구입 관련 정보</h2>
           <p class="balance">
-            잔액 :<strong class="balanceMoneyLeft">원</strong>
+            잔액 :<strong class="balanceMoneyLeft">
+              <span class="balanceMoneyNum"></span> 원</strong
+            >
           </p>
           <button class="changeDepositBtn changeBtn">거스름돈 반환</button>
           <input class="depositInput" type="number" placeholder="입금액 입력" />
           <button class="changeDepositBtn depositBtn">입금</button>
           <strong class="ir">선택한 음료</strong>
-          <ul class="getListBox">
-            <li class="getList">
-              <img
-                class="cola"
-                src="./imgs/Original_Cola.png"
-                alt="오리지널 콜라"
-              />
-              <strong>Original_Cola</strong>
-              <button type="button" class="getNum">1</button>
-            </li>
-            <li class="getList">
-              <img class="cola" src="./imgs/Green_Cola.png" alt="그린 콜라" />
-              <strong>Green_Cola</strong>
-              <button type="button" class="getNum">1</button>
-            </li>
-          </ul>
+          <ul class="getListBox"></ul>
           <button class="getBtn" type="button">획득</button>
         </section>
       </section>
@@ -104,7 +91,10 @@
         <h2 class="ir">나의 정보 화면</h2>
         <div class="myInfoHeader">
           <p class="balance">
-            소지금: <strong class="balanceMoney">20,000 원</strong>
+            소지금:
+            <strong class="balanceMoney"
+              ><span class="myMoneyNum">20,000</span> 원</strong
+            >
           </p>
         </div>
         <article class="myBeverage">
